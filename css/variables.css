@@ -1,0 +1,43 @@
+/* ==========================================================
+   Design Tokens / CSS Variables
+   Edit these to customize the entire theme.
+   ========================================================== */
+
+:root {
+    /* --- Colors (Light Theme) --- */
+    --color-primary: #2563eb;
+    --color-primary-hover: #1d4ed8;
+    --color-bg: #ffffff;
+    --color-bg-alt: #f8fafc;
+    --color-surface: #ffffff;
+    --color-text: #1e293b;
+    --color-text-muted: #64748b;
+    --color-border: #e2e8f0;
+    --color-shadow: rgba(0, 0, 0, 0.08);
+
+    /* --- Typography --- */
+    --font-sans: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+
+    /* --- Sizing --- */
+    --max-width: 1100px;
+    --nav-height: 64px;
+    --radius: 10px;
+    --radius-sm: 6px;
+
+    /* --- Transitions --- */
+    --transition: 0.3s ease;
+}
+
+/* --- Dark Theme --- */
+[data-theme="dark"] {
+    --color-primary: #3b82f6;
+    --color-primary-hover: #60a5fa;
+    --color-bg: #0f172a;
+    --color-bg-alt: #1e293b;
+    --color-surface: #1e293b;
+    --color-text: #f1f5f9;
+    --color-text-muted: #94a3b8;
+    --color-border: #334155;
+    --color-shadow: rgba(0, 0, 0, 0.3);
+}
